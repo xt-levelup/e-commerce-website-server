@@ -7,7 +7,7 @@ module.exports = {
     io = require("socket.io")(httpServer, {
       cors: {
         origin: [
-          // "https://..." // Link client thật!
+          "https://e-commerce-website-server-p2i7.onrender.com", // Link client thật!
           "http://localhost:3000",
           "http://localhost:3001",
         ],
