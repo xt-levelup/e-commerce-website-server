@@ -58,6 +58,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "https://e-commerce-website-server-p2i7.onrender.com",
+      "https://e-commerce-admin-453bd.web.app/",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
