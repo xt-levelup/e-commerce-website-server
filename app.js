@@ -52,17 +52,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-app.use(
-  cors({
-    origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
-      "https://e-commerce-website-server-p2i7.onrender.com",
-      "https://e-commerce-admin-453bd.web.app/",
-    ],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-  })
-);
+app.use(cors());
 
 app.use(bodyParser.json());
 
