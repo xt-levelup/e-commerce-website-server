@@ -91,7 +91,7 @@ mongoose
       console.log("err connect_error:", err);
     });
     // Chạy lệnh mỗi 14 phút
-    job14Minutes.start();
+    job14Minutes.job.start();
   })
   .catch((err) => {
     console.log("mongoose connect err:", err);
