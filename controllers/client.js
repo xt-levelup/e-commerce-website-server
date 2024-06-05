@@ -281,12 +281,12 @@ exports.userOrder = async (req, res, next) => {
       return `
 <tr>          
   <td style="font-size:18px;">${item.currentProd.name}</td>          
-  <td style="font-size:18px;"><img src="http://localhost:5000/${
+  <td style="font-size:18px;"><img src="https://e-commerce-website-server-p2i7.onrender.com/${
     item.currentProd.imageUrls[0]
   }" style="object-fit:fill; width:100%; height:100%;" alt="${
         item.currentProd.name
       }"></td>
-  <!-- <td style="font-size:18px;"><img src="http://localhost:5000/images/1716909526355-173090586-watch_1_4.jpeg" style="object-fit:fill; width:100%; height:100%;" alt="${
+  <!-- <td style="font-size:18px;"><img src="https://e-commerce-website-server-p2i7.onrender.com/images/1716909526355-173090586-watch_1_4.jpeg" style="object-fit:fill; width:100%; height:100%;" alt="${
     item.currentProd.name
   }"></td> -->
   <td style="font-size:18px;">${item.currentProd.price.toLocaleString(
